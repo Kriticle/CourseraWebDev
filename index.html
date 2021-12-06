@@ -1,8 +1,82 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="C:\Users\kriti\OneDrive\Documents\GitHub\CourseraWebDev\mod2css.css">  
 </head>
 
+<style> 
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align:center;
+    color: red;
+}
+
+.items{
+    padding: 10px;
+    position: relative;
+    float: left;
+    background-color: silver;
+    margin: 7px;
+    border: 1px solid black;
+}
+
+.title{
+    padding: 3px;
+    margin: 0px;
+    background-color: springgreen;
+    top: 0%;
+    position: absolute;
+    right:0%;
+    border: 1px solid black;
+}
+
+p{
+    position: relative;
+    top: 1em;
+}
+
+
+#it1{
+
+    background-color: teal;
+}
+
+#it2{
+    background-color: thistle;
+}
+
+#it3{
+    background-color: powderblue;
+}
+@media (min-width:768px)  and (max-width: 991px) {
+
+.items{
+    width:45%;
+}
+
+#item3{
+    width:90%;
+}
+
+}
+
+@media (min-width:992px){
+
+    .items{
+        width: 30%;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .items{
+        width: 80%;
+    }
+}
+</style>
 <body>
 <h1>
     Our Menu
